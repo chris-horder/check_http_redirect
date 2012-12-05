@@ -7,3 +7,5 @@ otherwise exits with WARNING (if not equal) or CRITICAL ( if doesn't exist)
 
 The customised version supports virtual hosts parameter which is useful for
 redirect checks on the servers behind loadbalancers.
+
+check_http_redirect.pl -U http://webserver1.com -H somesite.com -R https://somesite.com
